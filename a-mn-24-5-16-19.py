@@ -314,10 +314,10 @@ def emptyNet():
 
     time.sleep(2)
 
-    info( net[ 's05m1' ].cmd( 'python3.6 as05gdb.py &amp' ) )
-    info( net[ 's16m1' ].cmd( 'python3.6 as16gdb.py &amp' ) )
-    info( net[ 's19m1' ].cmd( 'python3.6 as19gdb.py &amp' ) )
-    info( net[ 's24m1' ].cmd( 'python3.6 as24gdb.py &amp' ) )
+    info( net[ 'ccdb' ].cmd( 'python3.6 as05gdb.py &amp' ) )
+    info( net[ 'ccdb' ].cmd( 'python3.6 as16gdb.py &amp' ) )
+    info( net[ 'ccdb' ].cmd( 'python3.6 as19gdb.py &amp' ) )
+    info( net[ 'ccdb' ].cmd( 'python3.6 as24gdb.py &amp' ) )
 
     time.sleep(2)
     """
